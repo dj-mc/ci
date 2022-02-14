@@ -33,7 +33,7 @@ void clock_time(int hour, int minute, int second) {
     printf("Time: %i:%i:%ipm\n", newHour, minute, second);
 }
 
-int getSeconds(int hour, int minute, int second) {
+int get_seconds(int hour, int minute, int second) {
   return ((hour * 3600) + (minute * 60) + second);
 }
 
@@ -43,13 +43,13 @@ int main() {
   clock_time(23, 0, 22);
   clock_time(24, 5, 5);
 
-  float ourTime = getSeconds(12, 50, 5);
-  float dayTime = getSeconds(24, 0, 0);
+  float our_time = get_seconds(12, 50, 5);
+  float day_time = get_seconds(24, 0, 0);
 
-  float secondsLeft = dayTime - ourTime;
-  float perCent = ourTime / dayTime;
+  float seconds_left = day_time - our_time;
+  float percent = our_time / day_time;
 
-  printf("Our time: %0.3f\n", ourTime);
-  printf("Seconds left in the day: %0.3f\n", secondsLeft);
-  printf("Percentage of day passed: %0.3f\n", perCent);
+  printf("Our time: %0.3f\n", our_time);
+  printf("Seconds left in the day: %0.3f\n", seconds_left);
+  printf("Percentage of day passed: %0.3f\n", percent);
 }
