@@ -2,12 +2,6 @@
 
 A lot of C because I want to write C.  
 
-## goals
-
-- Learn C's modern ecosystem
-- Call C from C++, Ruby, Node.js, and more
-- CMake + CTest
-
 ## interfacing with C
 
 Using different compilers:
@@ -26,3 +20,12 @@ Find docs for a particular function:
 ## references
 
 Modern C -- Jens Gustedt (2019)
+Mastering Algorithms with C -- Kyle Loudon (1999)
+
+## data types
+
+char 1 byte == 8 bits  
+short 2 bytes == 16 bits  
+int 2-4 bytes == 16-32 bits  
+long 4 bytes == 32 bits  
+long long 8 bytes == 64 bits  

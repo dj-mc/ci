@@ -4,6 +4,7 @@
 *.exe
 *.a
 *.so
+*.o
 
 /.cache/*
 /.vscode/*
@@ -13,3 +14,4 @@
 .log-gdb
 cmake_install.cmake
 CMakeCache.txt
+!Makefile
